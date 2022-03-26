@@ -148,7 +148,7 @@ pyOpenSSL==22.0.0
 pypandoc==1.5
 pyparsing==3.0.7
 PyPDF3==1.0.6
-pypiwin32==223
+
 pyrsistent==0.18.1
 PySocks==1.7.1
 python-bidi==0.4.2
