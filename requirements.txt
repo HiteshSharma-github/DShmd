@@ -2,17 +2,15 @@
 dj-database-url
 Django
 django-heroku
-django-progressive-web-app
-django-pwa
-django-widget-tweaks
+
 
 fcm-django
 filelock
 firebase
 firebase-admin
-Flask
+
 fonttools
-future
+
 google-api-core
 google-api-python-client
 google-auth
@@ -37,15 +35,15 @@ httpx
 
 
 
-mypy-extensions
+
 mysql
 mysqlclient
 
 notebook
-numpy
-oauthlib
 
-outcome
+
+
+
 
 py
 py-vapid
@@ -73,7 +71,7 @@ pytz
 
 
 requests
-requests-oauthlib
+
 rfc3986
 rsa
 
@@ -85,7 +83,7 @@ urllib3
 virtualenv
 virtualenv-clone
 virtualenvwrapper-win
-wasabi
+
 wcwidth
 webencodings
 
