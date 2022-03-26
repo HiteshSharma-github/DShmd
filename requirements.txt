@@ -68,7 +68,7 @@ python-slugify
 python-webpack-boilerplate
 pyttsx3
 pytz
-
+widget_tweaks
 
 requests
 
