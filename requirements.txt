@@ -79,8 +79,7 @@ ipywidgets
 isort
 itsdangerous
 jedi
-Jinja1
-jinja2-time
+
 jsonschema
 jupyter
 jupyter-client
