@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 
 import os
 import django_heroku
+import dj_database_url
+from decouple import config
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
@@ -29,7 +31,7 @@ STATIC_URL = 'static'
 SECRET_KEY = 'hpbv()ep00boce&o0w7z1h)st148(*m@6@-rk$nn)(n9ojj4c0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
@@ -50,6 +52,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -132,10 +135,11 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [STATIC_DIR, ]
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'static')
-
+STATICFILES_STORAGE = 'whitenoise.storage.COmpressedManifestStaticFilesStorage'
 
 LOGIN_REDIRECT_URL = '/afterlogin'
-ALLOWED_HOSTS = ['diagnosesastra.herokuapp.com', 'localhost', '127.0.0.1']
+
+
 # for contact us give your gmail id and password
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
@@ -151,4 +155,5 @@ EMAIL_HOST_PASSWORD = 'heloiamtheboss'  # host email password required
 # this process is required because google blocks apps authentication by default
 # email on which you will receive messages sent from website
 EMAIL_RECEIVING_USER = ['hiteshsharmahs0987@gmail.com']
+
 django_heroku.settings(locals())
