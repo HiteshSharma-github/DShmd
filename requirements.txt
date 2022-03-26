@@ -34,7 +34,6 @@ httpcore
 httplib2
 httpx
 
-iostream
 
 
 
@@ -45,28 +44,9 @@ mysqlclient
 notebook
 numpy
 oauthlib
-opencv-python
+
 outcome
-p2j
-packaging
-pandas
-pandocfilters
-parso
-pathspec
-pathy
-pickleshare
-Pillow
-pipenv
-platformdirs
-pluggy
-poyo
-preshed
-prometheus-client
-prompt-toolkit
-proto-plus
-protobuf
-psycopg2
-pure-eval
+
 py
 py-vapid
 pyasn1
@@ -85,54 +65,21 @@ pyrsistent
 PySocks
 python-bidi
 python-dateutil
-python-git==2018.2.1
+
 python-slugify
 python-webpack-boilerplate
 pyttsx3
 pytz
 
 
-pyzmq
-qtconsole
-QtPy
-reportlab
 requests
 requests-oauthlib
 rfc3986
 rsa
 
-selenium
-Send2Trash
-six
-smart-open
-sniffio
-sortedcontainers
-spacy-legacy
-spacy-loggers
+
 sqlparse
-srsly
-stack-data
-svglib
-sympy
-tensorboard-data-server
-tensorboard-plugin-wit
-terminado
-testpath
-text-unidecode
-thinc
-tinycss2
-toml
-tomli
-tornado
-tox
-tqdm
-traitlets
-trio
-trio-websocket
-typed-ast
-typer
-typing_extensions
-tzdata
+
 uritemplate
 urllib3
 virtualenv
@@ -141,8 +88,8 @@ virtualenvwrapper-win
 wasabi
 wcwidth
 webencodings
-Werkzeug
-whitenoise
+
+
 widgetsnbextension
 wrapt
 wsproto
