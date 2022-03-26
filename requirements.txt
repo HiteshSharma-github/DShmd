@@ -148,7 +148,7 @@ pyOpenSSL==22.0.0
 pypandoc==1.5
 pyparsing==3.0.7
 PyPDF3==1.0.6
-
+pypiwin32==223
 pyrsistent==0.18.1
 PySocks==1.7.1
 python-bidi==0.4.2
@@ -158,7 +158,7 @@ python-slugify==6.1.1
 python-webpack-boilerplate==0.0.10
 pyttsx3==2.90
 pytz==2019.3
-
+pywin32==303
 pywinpty==2.0.1
 pyzmq==22.3.0
 qtconsole==5.2.2
